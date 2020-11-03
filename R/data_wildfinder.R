@@ -22,12 +22,16 @@ data_mammals<-function() {
   readr::read_csv(here::here("data", "wwf-wildfinder", "wildfinder-mammals_list.csv"))
 }
 
-#' Title
+#' fct_espece_ecoregions
 #'
 #' @return species into ecoregions
 #' @export
 #'
 #' @examples
-data_mammals-ecoregions<-function() {
+data_mammals_ecoregions<-function() {
   readr::read_csv(here::here("data", "wwf-wildfinder", "wildfinder-ecoregions_species.csv"))
 }
+
+
+
+
